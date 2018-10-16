@@ -1,0 +1,38 @@
+html {
+  background: #eee9de;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee9de;
+  margin: 1.5rem;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: .5rem;
+  padding: .4em .75em .5em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 25em;
+  text-align: center;
+  padding: 2em;
+  float: left;
+}
+
+section p {
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
