@@ -15,11 +15,11 @@ body {
   vertical-align: middle;
 }
 
-h1 {
+h2 {
   font-weight: bold;
-  font-size: 1.4em;
-  margin: 1.5rem;
-  padding: .4em .75em .5em;
+  font-size: 1.5em;
+  margin: 0;
+  padding: .75em .75em 0;
 }
 
 img {
@@ -27,14 +27,12 @@ img {
   width: 100%;
   max-width: 25em;
   text-align: center;
-  padding: 2em;
+  padding: 1.2em;
   float: left;
 }
 
-section p {
+.div2 p {
   display: block;
-  padding: 1em;
-  text-align: left;
 }
 
 a {
@@ -58,4 +56,14 @@ a:hover {
 
 .btn {
   padding: .75em;
+}
+
+.div1 {
+  display: inline-block;
+  padding-top: 1.2em;
+}
+
+.div2 {
+  display: inline-block;
+  text-align: left;
 }
