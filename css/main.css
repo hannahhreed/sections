@@ -12,58 +12,51 @@ html {
 body {
   background-color: #eee9de;
   margin: 0;
-  vertical-align: middle;
 }
 
 h2 {
   font-weight: bold;
   font-size: 1.5em;
   margin: 0;
-  padding: .75em .75em 0;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
-  text-align: center;
-  padding: 1.2em;
-  float: left;
 }
 
 .div2 p {
   display: block;
 }
 
-a {
-  color: #666;
+.btn {
+  color: #333;
   background-color: #eee9de;
   border-radius: .5em;
   border: solid;
   border-color: #333;
   display: inline-block;
-  line-height: 1.5;
-  padding: .5em;
+  padding: .4em .5em .75em;
   text-align: left;
   text-decoration: none;
-  font-size: .8em;
+  font-size: 1.125em;
 }
 
-a:hover {
+.btn:hover {
   color: #eee9de;
-  background-color: #333;
+  background-color: #666;
 }
 
-.btn {
-  padding: .75em;
-}
-
-.div1 {
+.div1, .div2 {
   display: inline-block;
-  padding-top: 1.2em;
-}
-
-.div2 {
-  display: inline-block;
+  padding: 1em;
+  max-width: 25em;
   text-align: left;
+  vertical-align: middle;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
 }
